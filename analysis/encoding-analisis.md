@@ -29,3 +29,12 @@ Format data yang digunakan adalah JSON.
   "nama": "Putri Sahira",
   "email": "putri@email.com"
 }
+
+## 5. Capture Wireshark
+File: `analysis/wireshark.png`
+
+**Analisis:**
+1. Paket menggunakan protokol TCP dengan port tujuan 8088
+2. Method HTTP yang digunakan adalah GET
+3. Host tujuan adalah 127.0.0.1 port 8088
+4. Menunjukkan alur komunikasi TCP → HTTP berjalan normal sesuai urutan troubleshooting
